@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #35424a;
+    border-bottom: 2px solid #a9508b;
+    color: white;
+    
+}
+span{
+    color: #a9508b
+}
+.header--clarusway{
+    margin-left: 1rem;
+
+}
+.header--list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.header--list a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+
+}
+.header--list a:hover{
+    color: #a9508b
+}
+main{
+    background-image: url(./images/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20rem;
+    height: 17rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .web--design{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+input{
+    padding: 0.4rem 2rem 0.4rem 0.2rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+nav{
+    background-color: #35424a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem 1.5rem 2rem;
+    color: white;
+
+}
+section{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+img{
+    width: 20%;
+    display: block;
+    margin-bottom: 1rem;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+section div p{
+    margin-top: 1rem;
+}
+footer{
+    text-align: center;
+    background-color: #35424a;
+    color: white;
+    padding: 1rem 0;
+}
+footer img{
+    margin: 0 auto;
+    width: 15%;
+}
+article{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 1rem 10rem 1rem;
+    background-color: #f4f4f4;
+    font-size: 0.8rem;
+}
+.article--1{
+    width: 70%;
+    margin-right: 2rem;
+
+}
+.article--1 > div{
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+.article--2{
+    width: 30%;
+    background-color: #35424a;
+    padding: 2rem 1rem;
+    color: white;
+    line-height: 1.3rem;
+    align-self:baseline;
+}
+.article--2 h3{
+    margin-bottom: 1rem;
+}
+.article--1-text2{
+    background-color: #35424a;
+    padding: 1rem;
+    color:white;
+}
+aside{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: #f4f4f4;
+    font-size: 0.8rem;
+}
+.aside--1{
+    width: 70%;
+    margin-right: 2rem;
+}
+.aside--2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #35424a;
+    padding: 2rem 1rem 1rem 1rem;
+    align-self:baseline;
+    color: white;
+    
+
+}
+.aside--2 label,
+.aside--2 textarea{
+    display: block;
+    margin: 3px 0;
+}
+textarea{
+    padding-top: 5px;
+    padding-left: 5px;
+    /* padding-right: 6.4rem; */
+}
+.aside--h3{
+    margin-bottom: 1rem;
+}
+.aside--text{
+    margin-bottom: 1px;
+    padding:1rem 2rem;
+    background-color: #e6e6e6;
+}
+.aside--text > p,
+.aside--text > h3{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:890px) {
+    main{
+        background-position-y: 0;
+    }
+    
+}
